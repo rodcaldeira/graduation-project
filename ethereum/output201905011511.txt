@@ -1,0 +1,34 @@
+
+> codes@1.0.0 test C:\Users\Rodrigo\ufes\20191\pg\codes
+> mocha
+
+
+
+  Notice Factory
+    √ Deploys a full functioning contract
+    √ Anyone can request list of notice (47ms)
+
+  Notice usage
+    √ Owner can't enter the Notice
+    √ Owner can update the state of notice (53ms)
+    √ Only owner can update the notice status (44ms)
+    √ Others can enter the Notice only in summon notice status (138ms)
+    √ No one can join the notice if not in summon state (101ms)
+    √ Bidder only leaves the notice at summon state (187ms)
+    √ Only bidders can bid
+    √ If not the manager can't add item in notice.
+    √ Owner can add one and only one item each call of addItem.
+    √ Strange can't update public notice info pdf and hash
+    √ Owner can update public notice info pdf and hash
+    √ Returns last notice infos (pdf link and hash)
+    √ Returns notice info history by index - only in bound
+    √ Return all bidders (119ms)
+    √ Return all notice items address
+    √ Bidder can make an offer to an item, but outsiders can't (344ms)
+    √ Return best bidder (370ms)
+    √ Return best value of given item address (363ms)
+    √ Return reference value of given item address
+
+
+  21 passing (8s)
+
